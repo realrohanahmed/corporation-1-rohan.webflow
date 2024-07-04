@@ -210,7 +210,7 @@ body {
   margin-top: 10px;
 }
 
-.site-wrapper {
+.site-wrapper-business-c {
   color: #000;
   font-weight: 500;
   display: block;
@@ -1595,6 +1595,10 @@ body {
   border-bottom: 2px solid #fff;
 }
 
+.nav-link-2.w--current {
+  color: #dadada;
+}
+
 .nav-link-3, .nav-link-4 {
   color: #fff;
 }
@@ -2035,8 +2039,12 @@ body {
   text-decoration: none;
 }
 
+.text-block-72.w--current {
+  color: var(--primary);
+}
+
 .icon-2 {
-  color: #fff;
+  color: var(--white);
 }
 
 .image-17 {
@@ -2849,8 +2857,8 @@ body {
 }
 
 .div-block-147 {
-  background-image: url('../images/Untitled-design-3-1.png');
-  background-position: 50%;
+  background-image: url('../images/banner-20-1.jpg');
+  background-position: 0 35%;
   background-size: cover;
   min-height: 70vh;
   position: relative;
@@ -2890,6 +2898,8 @@ body {
   justify-content: space-around;
   align-items: flex-start;
   margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
 }
 
@@ -3050,6 +3060,56 @@ body {
   color: var(--white);
   border-radius: 50px;
   padding: 16px 30px;
+}
+
+.header-area-business {
+  color: #fff;
+  min-height: 60vh;
+}
+
+.hero-content-business {
+  background-image: linear-gradient(rgba(0, 4, 255, .5), rgba(0, 4, 255, .5)), url('../images/Untitled-1500-x-1000-px_1.png');
+  background-position: 0 0, 50%;
+  background-size: auto, cover;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.heading-43 {
+  font-size: 56px;
+  line-height: 1em;
+}
+
+.div-block-162 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.dropdown-list {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.dropdown-list:hover {
+  color: #afafaf;
+}
+
+.dropdown-hover-state {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.dropdown-hover-state:hover {
+  color: #000;
+  background-color: #fff;
 }
 
 @media screen and (min-width: 1280px) {
@@ -4327,7 +4387,7 @@ body {
     line-height: 30px;
   }
 
-  .site-wrapper {
+  .site-wrapper-business-c {
     position: relative;
   }
 
